@@ -14,10 +14,6 @@
     <!-- Unlock ripple animation -->
     <bool name="config_enableUnlockRippleAnimation">false</bool>
 
-    <!-- Auth ripple animation duration
-         AOSP default is 1533 -->
-    <item name="auth_ripple_animation_duration" format="float" type="dimen">1533.0</item>
-
     <!-- Enables or disables haptic effect when the text insertion/selection handle is moved
          manually by the user. Off by default, since the expected haptic feedback may not be
          available on some devices. -->
