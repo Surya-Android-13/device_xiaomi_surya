@@ -17,6 +17,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Target
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
 
 PRODUCT_NAME := aosp_surya
 PRODUCT_DEVICE := surya
