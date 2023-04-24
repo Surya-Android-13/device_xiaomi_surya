@@ -11,6 +11,9 @@
     <!-- StatusBar burn-in protection -->
     <bool name="config_disableStatusBarBurnInProtection">true</bool>
 
+    <!-- Unlock ripple animation -->
+    <bool name="config_enableUnlockRippleAnimation">false</bool>
+
     <!-- Auth ripple animation duration
          AOSP default is 1533 -->
     <item name="auth_ripple_animation_duration" format="float" type="dimen">1533.0</item>
