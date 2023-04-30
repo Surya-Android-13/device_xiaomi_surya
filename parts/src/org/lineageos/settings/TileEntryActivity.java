@@ -25,7 +25,6 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import org.lineageos.settings.dirac.DiracActivity;
 import org.lineageos.settings.refreshrate.RefreshActivity;
 
 public class TileEntryActivity extends Activity {
@@ -38,9 +37,6 @@ public class TileEntryActivity extends Activity {
         super.onCreate(savedInstanceState);
         ComponentName sourceClass = getIntent().getParcelableExtra(Intent.EXTRA_COMPONENT_NAME);
         switch (sourceClass.getClassName()) {
-            case DIRAC_TILE:
-                openActivitySafely(new Intent(this, DiracActivity.class));
-                break;
             case REFRESH_TILE:
                 openActivitySafely(new Intent(this, RefreshActivity.class));
                 break;    
